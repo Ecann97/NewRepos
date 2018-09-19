@@ -2,16 +2,16 @@
 public class Car {
 	
 
-	public String carModel;
-	public String carColor;
-	public String carTransmission;
+	private String carModel;
+	private String carColor;
+	public int carSpeed;
 
-	public static void main(String[] args)
-	{
-	
-	
-	
-	}
+Car(String carModel, String carColor, int carSpeed)
+{
+carModel = model;
+carColor = color;
+
+}
 	public String getCarModel()
 	{
 	return carModel;	
@@ -31,13 +31,14 @@ public class Car {
 	this.carColor = carColor;
 	}
 	
-	public String getCarTransmission()
+	
+	public int getCarSpeed()
 	{
-	return carTransmission;
+	return carSpeed;
 	}
-	public void setCarTransmission(String carTransmission)
+	public void setCarSpeed(int carSpeed)
 	{
-	this.carTransmission = carTransmission;
+	this.carSpeed = carSpeed;
 	}
 
 
