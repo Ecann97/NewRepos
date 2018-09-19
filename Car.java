@@ -1,17 +1,18 @@
 
 public class Car {
 	
-
+//Have to declare the class objects
 	private String carModel;
 	private String carColor;
 	public int carSpeed;
-
+//Here we define what the class is suppose to be
 Car(String model, String color, int speed)
 {
 carModel = model;
 carColor = color;
 carSpeed = speed;
 }
+//Object instances used to interact with input values
 	public String getCarModel()
 	{
 	return carModel;	
@@ -40,9 +41,10 @@ carSpeed = speed;
 	{
 	this.carSpeed = carSpeed;
 	}
-
+//The main method which calls the other methods inside of a for loop.
 public static void main(String[] args)
 {
+	//The defined car class with specified parameters.
 	Car test = new Car("volvo","red", 0);
 	for(int x=0; x<6; x++)
 	{
