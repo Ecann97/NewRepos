@@ -6,11 +6,11 @@ public class Car {
 	private String carColor;
 	public int carSpeed;
 
-Car(String carModel, String carColor, int carSpeed)
+Car(String model, String color, int speed)
 {
 carModel = model;
 carColor = color;
-
+carSpeed = speed;
 }
 	public String getCarModel()
 	{
@@ -41,7 +41,9 @@ carColor = color;
 	this.carSpeed = carSpeed;
 	}
 
-
+public static void main(String[] args)
+{
 	
+}
 
 }
