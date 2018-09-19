@@ -43,7 +43,15 @@ carSpeed = speed;
 
 public static void main(String[] args)
 {
-	
+	Car test = new Car("volvo","red", 0);
+	for(int x=0; x<6; x++)
+	{
+		System.out.println("The " + test.getCarColor() + " " + test.getCarModel()
+		+ "\n has traveled " + (test.getCarSpeed()+x) + " " + "miles.");
+		
+		System.out.println("Now the " + test.getCarColor() + " " + test.getCarModel()
+		+ "\n has traveled  " + (test.getCarSpeed()+x+1) + " " +  "miles. ");
+	}
 }
 
 }
